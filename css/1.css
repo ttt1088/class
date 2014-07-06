@@ -1,0 +1,110 @@
+﻿
+/*@font-face{
+	font-family:'fontNameRegular';
+	src:url(minihanzhenguangbiao.eot);
+	src:local('fontNameRegular'),
+		url('minihanzhenguangbiao.ttf') format('truetype');
+}*/
+a {
+	color:#FFF;
+	font-family: 'Microsoft YaHei UI';
+	font-weight:900;
+}
+a:active {
+    background:none;    /*IE去除链接点击后背景色*/
+}
+img{                    /*IE去除图片链接外边框*/
+    display: block;    
+    border: none;
+}
+body{
+	margin:0;
+}
+html, body, #container {
+	height: 100%;
+	margin: 0;
+	padding: 0; 
+}
+body > #container {
+	height: auto; 
+	min-height: 600px;          /*页面高度*/
+}
+div#container {
+    position:absolute;
+    height:100%;
+    width:100%;
+}
+
+div#title{
+	background-color:#4DFF91;
+	width:100%;
+	height:130px;
+	position:absolute;
+    min-width:1340px;           /*解决小窗口时宽度不够*/
+}
+div#logo {
+    width:700px;
+    border:none;
+}
+div#footer{
+	background-color:#4DFF91;
+	width:100%;
+	height:50px;
+	position: absolute;
+	bottom:0;
+    min-width:1340px;
+}
+
+div#login{
+	color:#666;
+	text-align:right;
+	top:3px;
+	position:relative;
+	padding-right:3px;
+}
+
+div#neirong {
+    position:absolute;
+    top:130px;
+    width:100%;
+    min-width:1340px;
+    height:440px;
+    background-color:white;
+}
+div.item{
+	float:left;
+}
+div#item1{
+	border:#FFCA3B solid 10px;
+	width:300px;
+	height:300px;
+	position:absolute;
+    margin:40px 50px 0 50px;
+}
+div#item2{
+	border:#FF763A solid 10px;
+	width:300px;
+	height:300px;
+    position:absolute;
+    margin:40px 50px 0 450px;
+}
+div#itemsmall{
+	border:#FF763A solid 1px;
+	width:465px;
+	height:320px;
+	position:absolute;
+    margin:40px auto 0 850px;        /*始终横向排列*/
+}
+
+div#search{
+	text-align:right;
+	position:relative;
+    top:-20px;
+	padding-right:3px;
+	
+}
+#sousuokuang{
+	border:hidden;
+}
+
+

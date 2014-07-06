@@ -1,0 +1,37 @@
+﻿body {
+}
+div#neirong {
+    /*background:rgba(77, 255, 145, 1.0) none repeat scroll 0 0 !important;*/
+    /*background-image:url(../img/spring.jpg);
+    background-size:100% 100%;*/
+    
+}
+div#reg {
+    width:370px;
+    padding:10px;
+    position:absolute;
+    left:50%;
+    margin-left:-185px;
+    margin-top:10%;
+    border:solid 3px;
+    border-radius:8px;
+    /*border-color:#7bbfea;*/
+    border-color:#4DFF91;
+    background-color:white;
+    font-family: 'Microsoft YaHei UI';
+    box-shadow:black 0px 2px 12px;
+}
+div.type {
+    padding:-50px;
+}
+.button {
+    background-color:#f9fda2;
+    text-decoration: none;
+    text-align:center;
+    filter:alpha(opacity=70);  
+    -moz-opacity:0.7;  
+    -khtml-opacity: 0.7;  
+    opacity: 0.7;
+    border-radius:25px;
+}
+
